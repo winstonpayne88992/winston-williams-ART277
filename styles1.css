@@ -1,0 +1,23 @@
+#body-am{
+    font-size: large;
+}
+div {
+    border: 2px solid pink;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: relative;
+    width: 150px;
+    height: 20px;
+    animation-name: anime;
+    animation-duration: 19s;
+    animation-delay: 3s;
+    animation-iteration-count:100;
+}
+ @keyframes anime{
+    0% {background-color: red, white; left: 0px; top: 0px;}
+    50% {background-color:white; left:100%; top:0px;}
+    100% {background-color:blue; left:0%; top:0px;}
+    
+
+
+}
