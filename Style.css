@@ -1,0 +1,41 @@
+body{
+  font-family: sans-serif;
+  padding: 0;
+  margin:0;
+}
+
+.header{
+  background-color: black;
+  min-height: 110px;
+}
+
+
+.logo img{
+  width: 80px;
+  height: 80;
+  border-radius: 50%;
+  float: left;
+  padding-left: 40px;
+  margin-top: 18px;
+}
+
+.nav-bar{
+  text-align: left;
+}
+
+.nav-bar ul{
+  list-style-type: none;
+  display: flex;
+  float: right;
+  padding-right: 40px;
+  border-right: 10px;
+  border: 10px;
+}
+
+.nav-bar ul li{
+  padding: 15ppx;
+  margin-top: 30px;
+}
+
+
+.n
